@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+const base = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 export default function Document() {
   return (
     <Html lang="en">
@@ -10,25 +12,13 @@ export default function Document() {
         />
       </Head>
       <body>
-        <script defer src="/assets/vendor/purecounter/purecounter.js"></script>
-        <script
-          defer
-          src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-        ></script>
-        <script
-          defer
-          src="/assets/vendor/glightbox/js/glightbox.min.js"
-        ></script>
-        <script
-          defer
-          src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"
-        ></script>
-        <script defer src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script
-          defer
-          src="/assets/vendor/waypoints/noframework.waypoints.js"
-        ></script>
-        <script defer src="/assets/js/main.js"></script>
+        <script defer src={`${base}/assets/vendor/purecounter/purecounter.js`}></script>
+        <script defer src={`${base}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js`}></script>
+        <script defer src={`${base}/assets/vendor/glightbox/js/glightbox.min.js`}></script>
+        <script defer src={`${base}/assets/vendor/isotope-layout/isotope.pkgd.min.js`}></script>
+        <script defer src={`${base}/assets/vendor/swiper/swiper-bundle.min.js`}></script>
+        <script defer src={`${base}/assets/vendor/waypoints/noframework.waypoints.js`}></script>
+        <script defer src={`${base}/assets/js/main.js`}></script>
         <Main />
         <NextScript />
       </body>
