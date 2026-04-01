@@ -1,0 +1,98 @@
+const translations = {
+  de: {
+    nav: {
+      home: "Home",
+      about: "Über mich",
+      resume: "Lebenslauf",
+      portfolio: "Portfolio",
+      contact: "Kontakt",
+    },
+    about: {
+      title: "Über mich",
+      subtitle: "Mehr über mich erfahren",
+      website: "Website",
+      phone: "Telefon",
+      city: "Stadt",
+      age: "Alter",
+      degree: "Abschluss",
+      email: "E-Mail",
+      skills: "Fähigkeiten",
+    },
+    resume: {
+      title: "Lebenslauf",
+      subtitle: "Lebenslauf ansehen",
+      summary: "Zusammenfassung",
+      experience: "Berufserfahrung",
+      education: "Ausbildung",
+      skills: "Kenntnisse",
+      exams: "Sprachen & Zertifikate",
+    },
+    portfolio: {
+      title: "Portfolio",
+      subtitle: "Meine Projekte",
+      all: "Alle",
+    },
+    contact: {
+      title: "Kontakt",
+      subtitle: "Kontaktiere mich",
+      location: "Standort",
+      locationValue: "Sachsen, Deutschland",
+      socialProfiles: "Social Profile",
+      email: "E-Mail",
+      phone: "Telefon",
+    },
+    counter: {
+      experience: "Jahre Erfahrung",
+      users: "Betreute Nutzer",
+    },
+  },
+  en: {
+    nav: {
+      home: "Home",
+      about: "About",
+      resume: "Resume",
+      portfolio: "Portfolio",
+      contact: "Contact",
+    },
+    about: {
+      title: "About",
+      subtitle: "Learn more about me",
+      website: "Website",
+      phone: "Phone",
+      city: "City",
+      age: "Age",
+      degree: "Degree",
+      email: "Email",
+      skills: "Skills",
+    },
+    resume: {
+      title: "Resume",
+      subtitle: "View Resume",
+      summary: "Summary",
+      experience: "Experience",
+      education: "Education",
+      skills: "Skills",
+      exams: "Languages & Certificates",
+    },
+    portfolio: {
+      title: "Portfolio",
+      subtitle: "My Works",
+      all: "All",
+    },
+    contact: {
+      title: "Contact",
+      subtitle: "Contact Me",
+      location: "Location",
+      locationValue: "Saxony, Germany",
+      socialProfiles: "Social Profiles",
+      email: "Email",
+      phone: "Phone",
+    },
+    counter: {
+      experience: "Years of Experience",
+      users: "Users Supported",
+    },
+  },
+};
+
+export default translations;
